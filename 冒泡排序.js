@@ -1,4 +1,7 @@
 // 冒泡排序，从第一位数开始，依次比较两个元素，将较大的数交换放在右边。直到最后一位数
+// 当为正序时，为最佳情况：T(n) = O(n) 
+// 当为反序时，最差情况：T(n) = O(n2)
+// 平均情况：T(n) = O(n2)
 function bubbleSort(arr) {
   console.time('计时结束')
   var len = arr.length
